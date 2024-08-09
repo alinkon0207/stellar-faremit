@@ -1,0 +1,36 @@
+
+NETWORK_PASSPHRASE = "Test SDF Network ; April 2024"
+ACCOUNTS = ["GDDWFPST4EELD5VYKJ3E7VM7U6CNHUV7JXW6I74YJY5LWMYJKPVXER4O", "GBGIQCRTAG3JT6PAB26725FVRLGD2NX2J7PIOUKKVA5BTMDKD3GSCRIO"]
+TRANSFER_SERVER = "http://localhost:8000/sep6"
+TRANSFER_SERVER_SEP0024 = "http://localhost:8000/sep24"
+WEB_AUTH_ENDPOINT = "http://localhost:8000/auth"
+SIGNING_KEY = "GDDWFPST4EELD5VYKJ3E7VM7U6CNHUV7JXW6I74YJY5LWMYJKPVXER4O"
+
+[[PRINCIPALS]]
+name = "Edward Wolf"
+email = "ewolf655@gmail.com"
+
+[[CURRENCIES]]
+code="TEST"
+issuer="GBGIQCRTAG3JT6PAB26725FVRLGD2NX2J7PIOUKKVA5BTMDKD3GSCRIO"
+name="TEST"
+desc="Test currency"
+display_decimals=2
+is_asset_anchored=true
+is_unlimited=true
+anchor_asset_type="fiat"
+anchor_asset="TEST"
+redemption_instructions="Access through trusted partners and stellar wallets"
+status="live"
+image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_Wd0DLe0ioB0c2pIJXg0IB9l9J2cXtsrQ6dlqshJCww&s"
+
+[DOCUMENTATION]
+ORG_NAME = ""
+ORG_DBA = ""
+ORG_URL = ""
+ORG_LOGO = ""
+ORG_DESCRIPTION = ""
+ORG_PHYSICAL_ADDRESS = ""
+ORG_TWITTER = ""
+ORG_OFFICIAL_EMAIL = ""
+ORG_GITHUB = ""
